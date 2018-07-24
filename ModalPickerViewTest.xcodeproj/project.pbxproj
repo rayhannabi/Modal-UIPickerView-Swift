@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E88B484D20D15F520011092A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B484C20D15F520011092A /* AppDelegate.swift */; };
+		E88B484F20D15F520011092A /* ModalPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B484E20D15F520011092A /* ModalPickerViewController.swift */; };
+		E88B485220D15F520011092A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88B485020D15F520011092A /* Main.storyboard */; };
+		E88B485420D15F530011092A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88B485320D15F530011092A /* Assets.xcassets */; };
+		E88B485720D15F530011092A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88B485520D15F530011092A /* LaunchScreen.storyboard */; };
+		E88B486320D167BA0011092A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B486220D167BA0011092A /* TableViewController.swift */; };
+		E88B486520D16B000011092A /* PickerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B486420D16B000011092A /* PickerType.swift */; };
+		E88BD9CF20DD51FC006D12C9 /* RNTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88BD9CE20DD51FC006D12C9 /* RNTransitionController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E88B484920D15F520011092A /* ModalPickerViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalPickerViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88B484C20D15F520011092A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E88B484E20D15F520011092A /* ModalPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPickerViewController.swift; sourceTree = "<group>"; };
+		E88B485120D15F520011092A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E88B485320D15F530011092A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E88B485620D15F530011092A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E88B485820D15F530011092A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88B486220D167BA0011092A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E88B486420D16B000011092A /* PickerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerType.swift; sourceTree = "<group>"; };
+		E88BD9CE20DD51FC006D12C9 /* RNTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNTransitionController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E88B484620D15F520011092A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E88B484020D15F510011092A = {
+			isa = PBXGroup;
+			children = (
+				E88B484B20D15F520011092A /* ModalPickerViewTest */,
+				E88B484A20D15F520011092A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E88B484A20D15F520011092A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E88B484920D15F520011092A /* ModalPickerViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E88B484B20D15F520011092A /* ModalPickerViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				E88B484C20D15F520011092A /* AppDelegate.swift */,
+				E88B486220D167BA0011092A /* TableViewController.swift */,
+				E88B484E20D15F520011092A /* ModalPickerViewController.swift */,
+				E88B485020D15F520011092A /* Main.storyboard */,
+				E88B485320D15F530011092A /* Assets.xcassets */,
+				E88B485520D15F530011092A /* LaunchScreen.storyboard */,
+				E88B485820D15F530011092A /* Info.plist */,
+				E88B486420D16B000011092A /* PickerType.swift */,
+				E88BD9CE20DD51FC006D12C9 /* RNTransitionController.swift */,
+			);
+			path = ModalPickerViewTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E88B484820D15F520011092A /* ModalPickerViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88B485B20D15F530011092A /* Build configuration list for PBXNativeTarget "ModalPickerViewTest" */;
+			buildPhases = (
+				E88B484520D15F520011092A /* Sources */,
+				E88B484620D15F520011092A /* Frameworks */,
+				E88B484720D15F520011092A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalPickerViewTest;
+			productName = ModalPickerViewTest;
+			productReference = E88B484920D15F520011092A /* ModalPickerViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E88B484120D15F510011092A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rayhan Janam";
+				TargetAttributes = {
+					E88B484820D15F520011092A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E88B484420D15F510011092A /* Build configuration list for PBXProject "ModalPickerViewTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E88B484020D15F510011092A;
+			productRefGroup = E88B484A20D15F520011092A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E88B484820D15F520011092A /* ModalPickerViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E88B484720D15F520011092A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B485720D15F530011092A /* LaunchScreen.storyboard in Resources */,
+				E88B485420D15F530011092A /* Assets.xcassets in Resources */,
+				E88B485220D15F520011092A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E88B484520D15F520011092A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B484F20D15F520011092A /* ModalPickerViewController.swift in Sources */,
+				E88BD9CF20DD51FC006D12C9 /* RNTransitionController.swift in Sources */,
+				E88B486320D167BA0011092A /* TableViewController.swift in Sources */,
+				E88B484D20D15F520011092A /* AppDelegate.swift in Sources */,
+				E88B486520D16B000011092A /* PickerType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E88B485020D15F520011092A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88B485120D15F520011092A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E88B485520D15F530011092A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88B485620D15F530011092A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E88B485920D15F530011092A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E88B485A20D15F530011092A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E88B485C20D15F530011092A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBR76RZGD2;
+				INFOPLIST_FILE = ModalPickerViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanjanam.ModalPickerViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E88B485D20D15F530011092A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBR76RZGD2;
+				INFOPLIST_FILE = ModalPickerViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayhanjanam.ModalPickerViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E88B484420D15F510011092A /* Build configuration list for PBXProject "ModalPickerViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88B485920D15F530011092A /* Debug */,
+				E88B485A20D15F530011092A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E88B485B20D15F530011092A /* Build configuration list for PBXNativeTarget "ModalPickerViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88B485C20D15F530011092A /* Debug */,
+				E88B485D20D15F530011092A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E88B484120D15F510011092A /* Project object */;
+}
